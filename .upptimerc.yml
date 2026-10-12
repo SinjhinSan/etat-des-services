@@ -1,31 +1,32 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Page d'état des services (carte nw4zv, choix de Brice du 11/10/2026). Contrôle toutes les 5 minutes par GitHub Actions.
+owner: SinjhinSan
+repo: etat-des-services
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Effectivo, site
+    url: https://effectivo.fr
+  - name: Effectivo, application
+    url: https://app.effectivo.fr
+  - name: Effectivo, comptes et licences
+    url: https://effectivo.fr/api/auth/textes-en-vigueur.php
+  - name: Uilia, site
+    url: https://previsio.pro
+  - name: Uilia, application
+    url: https://app.previsio.pro
+  - name: Uilia, comptes et licences
+    url: https://previsio.pro/api/auth/textes-en-vigueur.php
+  - name: OttManager, site
+    url: https://ottmanager.fr
+  - name: OttManager, application
+    url: https://app.ottmanager.fr
+  - name: OttManager, comptes et licences
+    url: https://ottmanager.fr/api/auth/juridique.php
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /etat-des-services
+  name: État des services
+  introTitle: "État des services Effectivo, Uilia et OttManager"
+  introMessage: "Chaque service est contrôlé toutes les cinq minutes. Une maintenance prévue est annoncée ici."
   navbar:
-    - title: Status
+    - title: État
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
