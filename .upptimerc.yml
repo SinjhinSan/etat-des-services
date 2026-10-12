@@ -30,3 +30,54 @@ status-website:
   navbar:
     - title: État
       href: /
+
+i18n:
+  activeIncidents: Incidents en cours
+  allSystemsOperational: Tous les services fonctionnent
+  incidentReport: "Incident n° $NUMBER, compte rendu →"
+  activeIncidentSummary: Ouvert le $DATE, $POSTS messages
+  incidentTitle: Incident n° $NUMBER
+  incidentDetails: Détail de l'incident
+  incidentFixed: Résolu
+  incidentOngoing: En cours
+  incidentOpenedAt: Ouvert le
+  incidentClosedAt: Fermé le
+  incidentViewOnGitHub: Voir et suivre sur GitHub
+  incidentCommentSummary: Publié le $DATE par $AUTHOR
+  incidentBack: ← Tous les incidents
+  pastIncidents: Incidents passés
+  pastIncidentsResolved: Résolu en $MINUTES minutes, $POSTS messages
+  liveStatus: État en direct
+  overallUptime: "Disponibilité : $UPTIME"
+  overallUptimeTitle: Disponibilité
+  averageResponseTime: "Temps de réponse moyen : $TIME ms"
+  averageResponseTimeTitle: Temps de réponse moyen
+  sevelDayResponseTime: Temps de réponse sur 7 jours
+  responseTimeMs: Temps de réponse (ms)
+  up: En service
+  down: Hors service
+  degraded: Ralenti
+  ms: ms
+  loading: Chargement
+  navGitHub: GitHub
+  footer: Page d'état libre ([source]($REPO)), propulsée par [Upptime](https://upptime.js.org)
+  errorTitle: Une erreur est survenue
+  errorIntro: L'état des services n'a pas pu être chargé.
+  errorText: Réessayez dans quelques instants.
+  errorHome: Retour à l'accueil
+  pastScheduledMaintenance: Maintenances passées
+  scheduledMaintenance: Maintenances prévues
+  scheduledMaintenanceSummaryStarted: Commencée le $DATE, pour $DURATION minutes
+  scheduledMaintenanceSummaryStarts: Commence le $DATE, pour $DURATION minutes
+  startedAt: Commencée le
+  startsAt: Commence le
+  duration: Durée
+  durationMin: $DURATION minutes
+  incidentCompleted: Terminée
+  incidentScheduled: Prévue
+  duration24H: 24 h
+  duration7D: 7 j
+  duration30D: 30 j
+  duration1Y: 1 an
+  durationAll: tout
+  locale: fr-FR
