@@ -25,6 +25,8 @@ sites:
     url: https://bricebechet.pro
   - name: Brice Bechet Consulting, espace client
     url: https://espace.bricebechet.pro
+  - name: Brice Bechet Consulting, espace client (API)
+    url: https://espace.bricebechet.pro/api/webinaires/catalogue.php
 
 status-website:
   baseUrl: /etat-des-services
