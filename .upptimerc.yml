@@ -21,11 +21,15 @@ sites:
     url: https://app.ottmanager.fr
   - name: OttManager, comptes et licences
     url: https://ottmanager.fr/api/auth/juridique.php
+  - name: Brice Bechet Consulting, site
+    url: https://bricebechet.pro
+  - name: Brice Bechet Consulting, espace client
+    url: https://espace.bricebechet.pro
 
 status-website:
   baseUrl: /etat-des-services
   name: État des services
-  introTitle: "État des services Effectivo, Uilia et OttManager"
+  introTitle: "État des services Effectivo, Uilia, OttManager et Brice Bechet Consulting"
   introMessage: "Chaque service est contrôlé toutes les cinq minutes. Une maintenance prévue est annoncée ici."
   navbar:
     - title: État
