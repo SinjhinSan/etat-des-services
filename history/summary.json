@@ -220,19 +220,19 @@
     "url": "https://raw.githubusercontent.com/SinjhinSan/etat-des-services/master/essai-detection.txt",
     "icon": "https://icons.duckduckgo.com/ip3/raw.githubusercontent.com.ico",
     "slug": "essai-de-detection-sans-panne-reelle",
-    "status": "down",
-    "uptime": "97.35%",
-    "uptimeDay": "97.35%",
-    "uptimeWeek": "97.35%",
-    "uptimeMonth": "97.35%",
-    "uptimeYear": "97.35%",
-    "time": 70,
-    "timeDay": 70,
-    "timeWeek": 70,
-    "timeMonth": 70,
-    "timeYear": 70,
+    "status": "up",
+    "uptime": "76.87%",
+    "uptimeDay": "76.87%",
+    "uptimeWeek": "76.87%",
+    "uptimeMonth": "76.87%",
+    "uptimeYear": "76.87%",
+    "time": 98,
+    "timeDay": 98,
+    "timeWeek": 98,
+    "timeMonth": 98,
+    "timeYear": 98,
     "dailyMinutesDown": {
-      "2026-10-17": 0
+      "2026-10-17": 2
     }
   }
 ]
