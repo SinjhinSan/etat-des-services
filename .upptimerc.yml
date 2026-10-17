@@ -27,8 +27,6 @@ sites:
     url: https://espace.bricebechet.pro
   - name: Brice Bechet Consulting, espace client (API)
     url: https://espace.bricebechet.pro/api/webinaires/catalogue.php
-  - name: Essai de détection, sans panne réelle
-    url: https://raw.githubusercontent.com/SinjhinSan/etat-des-services/master/essai-detection.txt
 
 status-website:
   baseUrl: /etat-des-services
