@@ -10,11 +10,11 @@ sites:
   - name: Effectivo, comptes et licences
     url: https://effectivo.fr/api/auth/textes-en-vigueur.php
   - name: Uilia, site
-    url: https://previsio.pro
+    url: https://uilia.fr
   - name: Uilia, application
-    url: https://app.previsio.pro
+    url: https://app.uilia.fr
   - name: Uilia, comptes et licences
-    url: https://previsio.pro/api/auth/textes-en-vigueur.php
+    url: https://uilia.fr/api/auth/textes-en-vigueur.php
   - name: OttManager, site
     url: https://ottmanager.fr
   - name: OttManager, application
@@ -32,7 +32,8 @@ status-website:
   baseUrl: /etat-des-services
   name: État des services
   introTitle: "État des services Effectivo, Uilia, OttManager et Brice Bechet Consulting"
-  introMessage: "Chaque service est contrôlé plusieurs fois par jour. Une maintenance prévue est annoncée ici."
+  # Upptime écrit « 100.00% » : virgule et espace insécable à la française.
+  js: "(function(){var r=/(\\d+)\\.(\\d+)%/g;function f(n){var w=document.createTreeWalker(n,4),t;while(t=w.nextNode()){if(r.test(t.data)){r.lastIndex=0;t.data=t.data.replace(r,'$1,$2\\u00a0%');}r.lastIndex=0;}}function go(){f(document.body);new MutationObserver(function(m){m.forEach(function(x){f(x.target.parentNode||x.target);});}).observe(document.body,{subtree:true,childList:true,characterData:true});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',go);else go();})();"
   navbar:
     - title: État
       href: /
@@ -41,7 +42,7 @@ i18n:
   activeIncidents: Incidents en cours
   allSystemsOperational: Tous les services fonctionnent
   incidentReport: "Incident n° $NUMBER, compte rendu →"
-  activeIncidentSummary: Ouvert le $DATE, $POSTS messages
+  activeIncidentSummary: "Ouvert le $DATE ; messages : $POSTS"
   incidentTitle: Incident n° $NUMBER
   incidentDetails: Détail de l'incident
   incidentFixed: Résolu
@@ -52,7 +53,7 @@ i18n:
   incidentCommentSummary: Publié le $DATE par $AUTHOR
   incidentBack: ← Tous les incidents
   pastIncidents: Incidents passés
-  pastIncidentsResolved: Résolu en $MINUTES minutes, $POSTS messages
+  pastIncidentsResolved: "Résolu en $MINUTES min ; messages : $POSTS"
   liveStatus: État en direct
   overallUptime: "Disponibilité : $UPTIME"
   overallUptimeTitle: Disponibilité
