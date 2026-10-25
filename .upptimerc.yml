@@ -8,7 +8,7 @@ sites:
   - name: Effectivo, application
     url: https://app.effectivo.fr
   - name: Effectivo, comptes et licences
-    url: https://effectivo.fr/api/auth/textes-en-vigueur.php
+    url: https://effectivo.fr/api/auth/sante.php
   - name: Uilia, site
     url: https://uilia.fr
   - name: Uilia, application
@@ -20,7 +20,7 @@ sites:
   - name: OttManager, application
     url: https://app.ottmanager.fr
   - name: OttManager, comptes et licences
-    url: https://ottmanager.fr/api/auth/juridique.php
+    url: https://ottmanager.fr/api/auth/sante.php
   - name: Brice Bechet Consulting, site
     url: https://bricebechet.pro
   - name: Brice Bechet Consulting, espace client
