@@ -14,7 +14,7 @@ sites:
   - name: Uilia, application
     url: https://app.uilia.fr
   - name: Uilia, comptes et licences
-    url: https://uilia.fr/api/auth/textes-en-vigueur.php
+    url: https://uilia.fr/api/auth/sante.php
   - name: OttManager, site
     url: https://ottmanager.fr
   - name: OttManager, application
