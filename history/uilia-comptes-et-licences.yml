@@ -1,7 +1,7 @@
-url: https://uilia.fr/api/auth/textes-en-vigueur.php
+url: https://uilia.fr/api/auth/sante.php
 status: up
 code: 200
-responseTime: 346
-lastUpdated: 2026-10-26T00:50:05.459Z
+responseTime: 326
+lastUpdated: 2026-10-27T01:41:16.380Z
 startTime: 2026-10-12T04:17:56.579Z
 generator: Upptime <https://github.com/upptime/upptime>
